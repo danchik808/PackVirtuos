@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/product.css">
+    <title>Document</title> <!-- ЧТО НАПИСАТЬ -->
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="wrapper wr-header">
+                <a href="index.html" class="header-logo" style="display: none;"><img src="img/logo.png" alt="logo"></a>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html">Главная</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="product.html">Описание продукта</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+                <div class="burger-div"><button class="burger">
+                        <svg width="30" height="23" viewBox="0 0 30 23" fill="#FFF" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="30" height="3" fill="#FFF" />
+                            <rect y="10" width="30" height="3" fill="#FFF" />
+                            <rect y="20" width="30" height="3" fill="#FFF" />
+                        </svg>
+                    </button></div>
+            </div>
+            <div class="header__nav">
+                <div class="close-block">
+                    <div class="close">
+                        <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+                                fill="#fff" />
+                            <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#fff" />
+                        </svg>
+                    </div>
+                </div>
+                <ul class="nav__list-burger">
+                    <li>
+                        <a class="nav__link" href="index.html">Главная</a>
+                    </li>
+                    <li>
+                        <a class="nav__link" href="product.html">Описание продукта</a>
+                    </li>
+                    <li>
+                        <a class="nav__link" href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="head-info">
+            <a href="index.html" class="head-info__logo"><img src="img/logo.png" alt="logo"></a>
+            <a href="index.html" class="head-info__line"><img src="img/Header.gif" alt="head"></a>
+        </div>
+    </header>
+    <main class="wrapper">
+        <h1 class="main__headline">Виды упаковок</h1>
+        <section class="product-card">
+            <img class="product-card__img" src="img/pr1.png" alt="Плоские промежуточные слои">
+            <div class="product-card__info">
+                <h2 class="product-card__headline">«Плоские промежуточные слои»</h2>
+                <p class="product-card__text">Тип упаковывания «Плоские промежуточные слои» подразумевает укладку
+                    деталей слоями и наличие разделительных жестких горизонтальных плоскостей между слоями, что
+                    обеспечивает высокую стабильность упаковки. <span class="span1">Расположение деталей будет максимально регулярным, что
+                    позволит легко загружать и выгружать их.</span></p>
+                <button class="product-card__btn"><a href="types/fil.html">ПОДРОБНЕЕ</a></button>
+            </div>
+        </section>
+        <section class="product-card">
+            <img class="product-card__img" src="img/pr2.png" alt="Отсеки">
+            <div class="product-card__info">
+                <h2 class="product-card__headline">«Отсеки»</h2>
+                <p class="product-card__text">Тип упаковывания «Отсеки» подразумевает укладку деталей слоями с жесткими
+                    горизонтальными плоскостями между слоями, причем детали в слоях размещаются в индивидуальных
+                    отсеках. <span class="span2-1">Такой способ упаковки оптимален для транспортировки хрупких деталей.</span> <span class="span2-2">Программное
+                    обеспечение позволяет использовать стандартные прямоугольные и трапециевидные отсеки. В рамках
+                    одного вида слоя все отсеки будут одинаковыми, и детали в них будут лежать в одном и том же
+                    положении. Геометрия отсека будет подобрана под деталь автоматически.</span></p>
+                <button class="product-card__btn"><a href="types/compartments.html">ПОДРОБНЕЕ</a></button>
+            </div>
+        </section>
+        <section class="product-card">
+            <img class="product-card__img" src="img/pr3.png" alt="Штабелирование">
+            <div class="product-card__info">
+                <h2 class="product-card__headline">«Штабелирование»</h2>
+                <p class="product-card__text">Помимо заполнения в виде слоев PackVirtuos предлагает возможность укладки
+                    деталей в виде стопок (штабелей), которые могут быть вертикальными, горизонтальными или наклонными.
+                    Эта функция особенно подходит для тонкостенных предметов.</p>
+                <button class="product-card__btn"><a href="types/stacking.html">ПОДРОБНЕЕ</a></button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__line"></div>
+        <p class="footer__text">© 2024 PackVirtuos</p>
+    </footer>
+    <script src="script/burger.js"></script>
+</body>
+
+</html>
